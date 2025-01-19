@@ -1,0 +1,42 @@
+.hero{
+    background-image: url('../assets/hero.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: top; /* Centers the image */
+    background-repeat: no-repeat;
+}
+.text{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.statistics{
+    background-color: darkblue;
+    height: 500px;
+    padding: 50px;    
+}
+.statistics>h3{
+    color: white;
+    
+}
+.data{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.item{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    background-color: darkblue;
+    color: white;
+}

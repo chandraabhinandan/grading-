@@ -1,0 +1,44 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/login.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: top; /* Centers the image */
+    background-repeat: no-repeat;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+h2{
+    margin-bottom: 20px;
+}
+select{
+    width: 300px;
+    display: block;
+}
+
+.login-button{
+    margin-top: 30px;
+}
+.login-container{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
